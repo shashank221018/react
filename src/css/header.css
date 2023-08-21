@@ -1,0 +1,106 @@
+.img-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 96px;
+  background-image: url(../images/axis-logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  padding: 40px 0;
+  z-index: 1;
+}
+.img-header .logo-clickable {
+  position: absolute;
+  left: 47px;
+  top: 20px;
+  width: 208px;
+  height: 56px;
+  cursor: pointer;
+  z-index: 3;
+}
+.img-header .main-menu {
+  padding: 0;
+  justify-content: flex-end;
+}
+.img-header .main-menu .navbar-toggler {
+  margin-bottom: 20px;
+  outline: none;
+}
+.img-header .main-menu #navb {
+  justify-content: flex-end;
+  margin-right: 90px;
+  padding: 0 15px;
+}
+@media (max-width: 767px) {
+  .img-header .main-menu #navb {
+    background-color: #FFFFFF;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  .img-header .main-menu #navb.show {
+    width: 100%;
+  }
+}
+.img-header .main-menu #navb .navbar-nav .nav-item .nav-link {
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+  margin-right: 2.5em;
+}
+.img-header .main-menu #navb .navbar-nav .nav-item .dropdown-item{
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+}
+@media (max-width: 767px) {
+  .img-header .main-menu #navb .navbar-nav .nav-item .nav-link {
+    margin: 0 0 10px;
+  }
+}
+.img-header .main-menu #navb .navbar-nav .nav-item .nav-link::after {
+  display: none;
+}
+@media (max-width: 767px) {
+  .img-header .main-menu #navb .navbar-nav .nav-item .nav-link::after {
+    display: inline-block;
+  }
+}
+.img-header .main-menu #navb .navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 0.5px solid #97144D;
+}
+.img-header .main-menu #navb .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #FFFFFF;
+}
+.img-header .main-menu #navb .navbar-nav .nav-item.dropdown .dropdown-menu {
+  border: 0;
+  padding: 10px 15px;
+  margin: -2px 0 0 -15px;
+  border: none;
+  width: auto;
+}
+.img-header .main-menu #navb .navbar-nav .nav-item.dropdown .dropdown-menu .nav-item .nav-link {
+  margin: 0 0 10px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #333333;
+  text-align: center;
+}
+.footer__link {
+  font-size: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+}
+.footer__link:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
