@@ -1,0 +1,25 @@
+.common-form .form-group {
+  margin-bottom: 41px;
+}
+.common-form label {
+  font-size: 15px;
+  margin-bottom: 6px;
+  width: 100%;
+}
+.common-form input {
+  width: 100%;
+  font-size: 15px;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #333333;
+  margin-bottom: 6px;
+}
+.common-form input:focus {
+  border-color: #97144d;
+}
+.common-form input:focus-visible {
+  outline: none;
+}
+.common-form .input-warning {
+  font-size: 15px;
+}

@@ -1,0 +1,123 @@
+.encryption {
+  margin-bottom: 30px;
+}
+.encryption__banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.encryption__banner .encryption__info {
+  width: 60%;
+  padding: 0 90px 0 0;
+}
+@media (max-width: 767px) {
+  .encryption__banner .encryption__info {
+    width: 100%;
+    padding: 0;
+  }
+}
+.encryption__banner .encryption__info-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #97144d;
+  margin-bottom: 32px;
+}
+.encryption__banner .encryption__info-desc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.encryption__banner .encryption__info-desc + .encryption__banner .encryption__info-desc {
+  margin-top: 32px;
+}
+.encryption__banner .encryption__banner-img {
+  width: 40%;
+}
+@media (max-width: 767px) {
+  .encryption__banner .encryption__banner-img {
+    width: 100%;
+  }
+}
+.encryption__banner .encryption__banner-img img {
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+.encryption__request {
+  font-size: 16px;
+  color: #222222;
+  font-weight: 400;
+}
+.encryption__request-title{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.encryption__request + .encryption__request {
+  margin-top: 10px;
+}
+.encryption__code {
+  border-radius: 12px;
+  background-color: rgba(151, 20, 77, 0.15);
+}
+.encryption__code-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #97144d;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  border-radius: 12px 12px 0 0;
+}
+.encryption__code-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.encryption__code-copy {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.encryption__code-copy:hover, .encryption__code-copy:focus {
+  text-decoration: none;
+  color: white;
+}
+.encryption__code-copy svg {
+  width: 20px;
+  height: 20px;
+  stroke: #FFFFFF;
+  margin-right: 10px;
+}
+.encryption__code-body {
+  height: 390px;
+  font-size: 16px;
+  white-space: break-spaces;
+  overflow: auto;
+}
+.encryption__code-body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.encryption__code-body::-webkit-scrollbar-thumb {
+  background: rgb(153, 149, 149);
+  border-radius: 12px;
+}
+.encryption__code-body::-webkit-scrollbar-thumb:hover {
+  background: #97144d;
+}
+.encryption__code-body pre {
+  padding: 0 15px;
+  margin: 0;
+  overflow: initial;
+}
+.encryption__code-body pre .text-color-primary {
+  color: #97144d;
+}
+.encryption__code-note {
+  font-size: 16px;
+  font-weight: 400;
+  color: #161616;
+  margin: 10px 0 0 0;
+}

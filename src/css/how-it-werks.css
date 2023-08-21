@@ -1,0 +1,17 @@
+.how-it-werks-content h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+
+.pageheading{
+    font-size: 2em;
+    margin: 30px 0 15px;
+  }
+  
+  .how-it-werks  p{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
